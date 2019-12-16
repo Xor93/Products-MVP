@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ShopMVP.IOC" Collapsed="true">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAAAAAAAAAAAAAAAJgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopMVP.Program" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopMVP.Models.Product" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopMVP.Presenters.ProductPresenter" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAACAAABAAAAAYAAAAAAAAE=</HashCode>
+      <FileName>Presenters\ProductPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopMVP.Presenters.ShopPresenter" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAACACAAAABAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Presenters\ShopPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopMVP.Services.XmlProductService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Services\XmlProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShopMVP.Views.ProductEventArgs" Collapsed="true">
+    <Position X="1.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IProductView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShopMVP.Views.ProductForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAABCAAACBAAECAAAIAAAQAAAAQAAAAAA=</HashCode>
+      <FileName>Views\ProductForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ShopMVP.Views.ShopForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAABCMBACAQAACAAAAAgAAgAAgBAAAAAA=</HashCode>
+      <FileName>Views\ShopForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="ShopMVP.Services.IProductService" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Services\IProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShopMVP.Views.IProductView" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IProductView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShopMVP.Views.IShopView" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAEBAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IShopView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ShopMVP.Views.IView" Collapsed="true">
+    <Position X="1.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
